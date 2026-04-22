@@ -6,7 +6,10 @@ A real-time AI meeting copilot. Listens to a live microphone feed, streams a tra
 
 - **Live demo:** https://ai-meeting-copilot-flame.vercel.app/
 - **Source:** https://github.com/tungnguyenasu/AI-meeting-copilot
-- **Demo video:** _coming — link will go here_
+
+![Meeting Copilot in action](docs/screenshot.png)
+
+_Live on Vercel mid-session: sliding transcript window on the left, three phase-aware suggestions with anchor-quote grounding in the middle, click-to-chat on the right._
 
 > Works best in Chrome or Edge (Safari's `MediaRecorder` doesn't emit WebM/opus reliably). Bring your own Groq key via the in-app Settings drawer if the shared one is rate-limited.
 
