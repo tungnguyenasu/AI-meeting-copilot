@@ -4,6 +4,12 @@ A real-time AI meeting copilot. Listens to a live microphone feed, streams a tra
 
 **Stack:** Next.js 15 (App Router) + TypeScript + Tailwind, Groq API for Whisper (STT) and LLaMA 3.3 70B / 3.1 8B (suggestions + chat + rolling summary).
 
+- **Live demo:** https://ai-meeting-copilot-flame.vercel.app/
+- **Source:** https://github.com/tungnguyenasu/AI-meeting-copilot
+- **Demo video:** _coming — link will go here_
+
+> Works best in Chrome or Edge (Safari's `MediaRecorder` doesn't emit WebM/opus reliably). Bring your own Groq key via the in-app Settings drawer if the shared one is rate-limited.
+
 ---
 
 ## Quickstart
